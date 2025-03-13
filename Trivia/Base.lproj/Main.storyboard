@@ -46,6 +46,9 @@
                                     <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="17"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="answerChoice1:" destination="tTV-Sd-RMQ" eventType="touchUpInside" id="oJP-Mv-dWQ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GoU-LY-fAj">
                                 <rect key="frame" x="48" y="602" width="319" height="34"/>
@@ -55,6 +58,9 @@
                                     <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="17"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="answerChoice2:" destination="tTV-Sd-RMQ" eventType="touchUpInside" id="0b8-W0-zzM"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4hQ-WA-ZQA">
                                 <rect key="frame" x="39" y="501" width="328" height="34"/>
@@ -64,6 +70,9 @@
                                     <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="17"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="answerChoice3:" destination="tTV-Sd-RMQ" eventType="touchUpInside" id="wWY-SB-aAY"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s3c-Ys-YEm">
                                 <rect key="frame" x="48" y="688" width="319" height="34"/>
@@ -73,6 +82,9 @@
                                     <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="17"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="answerChoice4:" destination="tTV-Sd-RMQ" eventType="touchUpInside" id="CXw-gv-3ch"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="4EC-ax-MuG"/>
